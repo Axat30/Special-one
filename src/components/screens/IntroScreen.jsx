@@ -24,7 +24,7 @@ export default function IntroScreen({ onNext }) {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.6 }}
                 >
-                    Hey Beautiful
+                    Hey mini rashiee
                 </motion.h1>
 
                 <motion.p
@@ -33,7 +33,7 @@ export default function IntroScreen({ onNext }) {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1.2 }}
                 >
-                    There’s something I want you to know.
+                    I wanted to share something with you.
                 </motion.p>
 
                 <motion.div
@@ -47,7 +47,7 @@ export default function IntroScreen({ onNext }) {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                     >
-                        <span className="relative z-10">Open My Heart </span> <Heart size={20} className="fill-current" />
+                        <span className="relative z-10">Something for You </span> <Heart size={20} className="fill-current" />
                     </motion.button>
                 </motion.div>
             </div>
